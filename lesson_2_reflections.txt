@@ -28,3 +28,10 @@ What are some situations when branches would be helpful in keeping your history 
 When creating a complex new feature, or a wholesale change to the way a program works, having the incremental changes
 you make along the way being separate from the master/main branch help you keep track of what you're doing for that
 change, and keeps them separate from changes other people might be making.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+From a basic level, they let you know which commits are tied to which branch(es).  Also, they allow you to see if there
+are any unreachable commits, which helps prevent data loss.
