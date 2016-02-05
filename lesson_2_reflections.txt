@@ -1,0 +1,15 @@
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Basically, everything I can think of.  This file, for one.  Probably not necessary, but it's good practice, I guess.
+
+I also have a lot of work related items that could benefit from it. 
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is different from the working directory and repository is it's not a physical location on the
+computer, it's more of a status for files.   Adding and removing files from the staging area doesn't actually affect
+the files themselves.  It's useful in that putting something in the staging area allows you to see what your commit is
+going to look like before it happens, and lets you make any changes before anything is set in stone.  Also, you can 
+add files as you got through the logical change you're making to keep track of what you've done.
