@@ -13,3 +13,13 @@ computer, it's more of a status for files.   Adding and removing files from the 
 the files themselves.  It's useful in that putting something in the staging area allows you to see what your commit is
 going to look like before it happens, and lets you make any changes before anything is set in stone.  Also, you can 
 add files as you got through the logical change you're making to keep track of what you've done.
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+If you've made multiple logical changes that are each in separate files, you can stage just the files for a certain 
+change, commit, then stage and commit the other item.
+
+
+
