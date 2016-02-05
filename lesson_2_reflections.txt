@@ -23,3 +23,8 @@ change, commit, then stage and commit the other item.
 
 
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When creating a complex new feature, or a wholesale change to the way a program works, having the incremental changes
+you make along the way being separate from the master/main branch help you keep track of what you're doing for that
+change, and keeps them separate from changes other people might be making.
