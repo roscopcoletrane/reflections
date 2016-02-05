@@ -1,0 +1,64 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Since the bug was introduced by changing something in the code, filtering any lines that weren't changed helps 
+focus on what was changed.  It saves time trying to remember what you did and where, and helps you see any 
+mistakes, like a "find the difference" picture game with all of the similarities removed.
+
+What also helps this process is making as few changes as possible at a time.  That way there are fewer 
+differences to have to analyze.
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long 
+term?
+
+For one, it gives you insight into what mistakes were made in the past so you can avoid making similar ones in 
+the future.
+
+Also, being able to see how it grew over time can help you understand how all the pieces work together, making 
+it easier to work with going forward.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs 
+having versions automatically saved, like Google Docs does?
+
+Pros: Different stages of programming take different amounts of time and code.  Having commits based on time or 
+size can't line up with the actual completion of a stage.  Manually determining when each stage is complete is 
+required, thus manually creating a commit is the only reliable way to have the commits be meaningful in the 
+context of the code itself.
+
+Cons: Humans are forgetful and imperfect.  Sometimes, you can focus too hard on coding, and make multiple 
+changes before remembering to commit anything.  Also, it requires you to plan your changes around making 
+meaningful commits, which takes more effort.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while 
+others, like Google Docs, treat each file separately?
+
+With code, logical changes often span multiple files.  Grouping the changes to those files allows you to track 
+a logical change as a whole, regardless of where it occurred.
+
+Google Docs has a use case that is generally around having your ideas in a single file, so tracking 
+relationships between the files themselves isn't a likely scenario.  Also, each file can have its own separate 
+parts (pages, sheets, etc) contained within that single file, which makes multi-file tracking even less 
+necessary.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+The "git log" command gives you a complete history of changes accross the repository, with an overview
+description of each commit.  The "git diff" tells you the specific changes that occurred between two specific
+commits.
+
+"git log" shows the forest, "git diff" shows the trees.
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Being able to easily revert any mistakes back to a known-working point means making a mistake is a very low-risk
+event.  As long as you stay away from making changes in production environments, throwing ideas at the wall and 
+doing new things are all on the table.
