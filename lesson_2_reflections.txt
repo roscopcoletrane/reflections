@@ -45,3 +45,12 @@ commits as its parents.  It will then take the new commit and label it with the 
 
 It's represented in that way because the child-parent structure doesn't change, even though the log makes it seem as
 though it has.
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: Huge savings in time and effort, less chance of human error introducing new bugs by accident.
+
+Cons: As good as it is, it's not perfect.  Git doesn't understand intent or context of the code itself, so it's not
+able to make decisions based on those factors.  Because of that, it may make mistakes.
