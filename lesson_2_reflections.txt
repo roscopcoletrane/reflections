@@ -35,3 +35,13 @@ How do the diagrams help you visualize the branch structure?
 
 From a basic level, they let you know which commits are tied to which branch(es).  Also, they allow you to see if there
 are any unreachable commits, which helps prevent data loss.
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging will take the commits referred to by the branches being merged and create a new commit, setting the two other
+commits as its parents.  It will then take the new commit and label it with the checked out branch.
+
+It's represented in that way because the child-parent structure doesn't change, even though the log makes it seem as
+though it has.
