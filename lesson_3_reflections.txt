@@ -28,3 +28,20 @@ Lastly, consider if someone updated the remote with code that contained a bug, w
 your local repo.  If you were attempting to add a feature or change something, you may mistakenly think the bug was 
 the result of your changes, and not the automatically pulled changes.  This could waste time with you looking in the 
 wrong place for the source of the bug.
+
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is something specific to Github (and similar sites), where you clone someone else's repository to your 
+account.  This allows you to create your own version, which maintaining attribution for who created the original.  You 
+would use this when the changes you want to make don't line up with the original project's plans, but you still want 
+to run with your ideas.
+
+A clone is essentially copying a git repository to a new location with full commit history intact.  You would want to 
+do this when you were going to work on a project that is hosted somewhere else.  You create your own version, work on 
+it, then submit your changes back into it.
+
+A branch is a logical way to compartmentalize commits.  It's basically a moving label that allows you to keep track of 
+a history of work and changes that are specific to one thing.  You would use a branch when you begin to make a change 
+that was large in scope that might consist of several individual logical changes (commits).
