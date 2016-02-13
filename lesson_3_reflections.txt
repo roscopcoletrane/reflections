@@ -9,3 +9,22 @@ coordinate your changes makes keeping track of things significantly easier.
 
 Then there's the general advantage of having a copy of your work offsite in case something unfortunate happenes to 
 your computer.  Never hurts to have a backup.
+
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your 
+remote repository?
+
+If you're in the middle of working on a particular file, and git decides to pull changes, there are a few potential 
+problems.
+
+The first being that it may add changes to code you were relying on being a certain way.  If it all of the sudden 
+changed without you noticing, it would likely cause your program to not work properly.
+
+Another issue is that if you have a file open in an editor, and git tries to pull a new version of that file, since 
+it's open, the system won't allow it to be updated, causing a conflict.
+
+Lastly, consider if someone updated the remote with code that contained a bug, which was then automatically pulled to 
+your local repo.  If you were attempting to add a feature or change something, you may mistakenly think the bug was 
+the result of your changes, and not the automatically pulled changes.  This could waste time with you looking in the 
+wrong place for the source of the bug.
