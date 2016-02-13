@@ -1,0 +1,11 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+For one, if you plan on collaborating with anyone else, having a central location accessible by anyone seems like a 
+necessity.  Trying to manage distributing the local repository amongst the contributing individuals manually seems 
+like excessive effort.
+
+Another situation is if you use more than one computer to do your work.  Being able to have a single place to 
+coordinate your changes makes keeping track of things significantly easier.
+
+Then there's the general advantage of having a copy of your work offsite in case something unfortunate happenes to 
+your computer.  Never hurts to have a backup.
