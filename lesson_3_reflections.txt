@@ -45,3 +45,14 @@ it, then submit your changes back into it.
 A branch is a logical way to compartmentalize commits.  It's basically a moving label that allows you to keep track of 
 a history of work and changes that are specific to one thing.  You would use a branch when you begin to make a change 
 that was large in scope that might consist of several individual logical changes (commits).
+
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If you were going to be away from an Internet connection for a while, having access to what's been going on with the 
+remote might help you plan your changes more accordingly.  Also, it allows you to account for any merge conflicts as 
+you go.
+
+Another benefit is having a clear path back to a (theoretically) known good state, just in case your work needs to be 
+scrapped for whatever reason.
