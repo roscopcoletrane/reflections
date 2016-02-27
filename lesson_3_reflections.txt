@@ -56,3 +56,15 @@ you go.
 
 Another benefit is having a clear path back to a (theoretically) known good state, just in case your work needs to be 
 scrapped for whatever reason.
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Dropbox shared folder, Google Docs, trading flash drives back and forth, shared SVN repository.  There are others, for 
+sure, but they'd fall into a similar category as one of those.
+
+Dropbox and Google Docs both have the issue of not having control over when you make your commits.  Flash drives are 
+difficult, as they are slow, and you need physical access to your collaborators.  You also don't get very good history 
+for your changes.  An SVN repository is similar to git, but requires access to the central repo server more often, 
+which can be difficult.  Also, SVN doesn't handle simultaneous work on the same file as well as git.
