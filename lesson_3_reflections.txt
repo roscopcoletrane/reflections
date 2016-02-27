@@ -68,3 +68,17 @@ Dropbox and Google Docs both have the issue of not having control over when you 
 difficult, as they are slow, and you need physical access to your collaborators.  You also don't get very good history 
 for your changes.  An SVN repository is similar to git, but requires access to the central repo server more often, 
 which can be difficult.  Also, SVN doesn't handle simultaneous work on the same file as well as git.
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each 
+approach have?
+
+Pretty much all of the time.  Unless the change is extremely minor, such as a small typo or correction, typically you 
+would want to create a new branch specific to the changes you are making.  This would allow you to test independant of 
+the master branch, which is often the "production" branch.  Making changes in production without proper testing is a 
+very risky and frankly stupid idea.
+
+Aside from mitigating danger, doing your work in separate branches allows you to keep track of different changes and 
+paths.  Having alpha/beta/public-beta/etc branches allows for better control over what is happening and who is working 
+on what.  Logical compartmentalization is very helpful, especially as a code base grown.
